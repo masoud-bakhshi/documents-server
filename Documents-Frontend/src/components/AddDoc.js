@@ -15,9 +15,7 @@ import {
 } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
 import { ValidatorForm, TextValidator } from "react-material-ui-form-validator";
-import { multiStepContext } from "./utils/StepContext";
 import { v4 as uuidV4 } from "uuid";
-const manageAxio = require("./utils/manageAxio");
 
 const useStyles = makeStyles((theme) => ({
   appBar: {

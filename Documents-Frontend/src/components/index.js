@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles, Button, Grid } from "@material-ui/core";
 import TextEditor from "./TextEditor";
 import Card from "@material-ui/core/Card";
@@ -11,10 +11,8 @@ import PostAddIcon from "@material-ui/icons/PostAdd";
 import { Route, Switch, Redirect, useHistory } from "react-router-dom";
 import AddDoc from "./AddDoc";
 import LinearProgress from "@material-ui/core/LinearProgress";
-import { multiStepContext } from "./utils/StepContext";
 import DocDialog from "./DocDialog";
 import Axios from "axios";
-const manageAxio = require("./utils/manageAxio");
 
 const useStyles = makeStyles((theme) => ({
   root1: {
@@ -130,7 +128,7 @@ function DocStore() {
               setDocOpen(true);
               // setOpen(true);
             }}
-            startIcon={<PostAddIcon />}
+            startIcon={<PostAddIcon style={{ marginLeft: "5px" }} />}
           >
             Open Documents
           </Button>

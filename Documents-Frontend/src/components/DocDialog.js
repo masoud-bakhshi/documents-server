@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useEffect, useState } from "react";
 import {
   makeStyles,
   Grid,
@@ -136,9 +136,9 @@ export default function DocDialog({
             )}
           </Grid>
         </DialogContent>
-        <DialogActions style={{ direction: "rtl", background: "#dadada" }}>
+        <DialogActions style={{ direction: "ltr", background: "#dadada" }}>
           <Button autoFocus onClick={handleClose} color="primary">
-            خروج
+            Close
           </Button>
           <Button
             onClick={() => {
@@ -147,7 +147,7 @@ export default function DocDialog({
             color="primary"
             autoFocus
           >
-            ذخیره در ورد
+            Save in Word{" "}
           </Button>
           {/* <Button
             onClick={() => {
@@ -159,7 +159,7 @@ export default function DocDialog({
             ذخیره در پی دی اف
           </Button> */}
           <Button onClick={handleClose} color="primary" autoFocus>
-            ذخیره
+            Save
           </Button>
         </DialogActions>
       </Dialog>
