@@ -8,7 +8,7 @@ just visit my webApp http://devcodebase.com
 
 # Using
 
-React js, material-ui, coingecko
+React js, material-ui, node js, socket programming
 
 # How to run
 

@@ -1,17 +1,15 @@
 # This web app created by Masoud Bakhshi
 
-# React js
+# Node js
 
 just visit my webApp http://devcodebase.com
 
 # Using
 
-React js, material-ui, coingecko
+React js, material-ui, node js
 
 # How to run
 
 yarn, yarn start
 
 # picture
-
-![CryptoCurrency](https://github.com/masoud-bakhshi/cryptocurrency/blob/main/crypto.jpg)
