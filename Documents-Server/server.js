@@ -11,7 +11,7 @@ var compression = require("compression");
 var RateLimit = require("express-rate-limit");
 const dotenv = require("dotenv");
 dotenv.config();
-const port = process.env.PORT;
+const port = 7501;
 app1.use(compression());
 // app1.use(cors1());
 
